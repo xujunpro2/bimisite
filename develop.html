@@ -1,0 +1,220 @@
+
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>BIMI-BIM轻量化引擎 </title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Free HTML5 Template by FREEHTML5" />
+	<meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
+	
+  	<!-- Facebook and Twitter integration -->
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
+
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+	<link rel="shortcut icon" href="favicon.ico">
+
+	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,300' rel='stylesheet' type='text/css'>
+	
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<!-- Superfish -->
+	<link rel="stylesheet" href="css/superfish.css">
+
+	<link rel="stylesheet" href="css/style.css">
+
+
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
+	</head>
+	<body>
+		<div id="fh5co-wrapper">
+		<div id="fh5co-page">
+		<div id="fh5co-header">
+			<header id="fh5co-header-section">
+				<div class="container">
+					<div class="nav-header">
+						<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
+						<h1 id="fh5co-logo"><a href="index.html">BIMI</a></h1>
+						<!-- START #fh5co-menu-wrap -->
+						<nav id="fh5co-menu-wrap" role="navigation">
+							<ul class="sf-menu" id="fh5co-primary-menu">
+								<li><a href="index.html">首页</a></li>
+								<li class="active"><a href="develop.html">开发指南</a></li>
+								<li><a href="https://gitee.com/xujunpro2/bim-example-release" target="_blank">示例演示</a></li>
+								<li>
+									<a href="#" class="fh5co-sub-ddown">开发文档</a>
+									<ul class="fh5co-sub-menu">
+										<li><a href="download/doc/index.html" target="_blank">API文档</a></li>
+										<li><a href="question.html" target="_blank">常见问题</a></li>
+										<li><a href="guid.html" target="_blank">常用API</a></li>
+									</ul>
+								</li>
+								<li><a href="services.html">服务与支持</a></li>
+								<li><a href="download.html">下载</a></li>
+								<li><a href="version.html">版本更新</a></li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</header>
+			
+		</div>
+		
+
+		<div class="fh5co-hero fh5co-hero-2">
+			<div class="fh5co-overlay"></div>
+			<div class="fh5co-cover fh5co-cover_2 text-center" data-stellar-background-ratio="0.5" style="background-image: url(images/about-image.jpg);">
+				<div class="desc animate-box">
+					<h2>让我们开始吧</h2>
+					<span>Let's GO</span>
+				</div>
+			</div>
+		</div>
+		<!-- end:header-top -->
+		<div id="fh5co-about">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2 text-center heading-section animate-box">
+						<h3>下载Revit导出插件</h3>
+						<p style="font-size: 14px;">
+							目前免费版本支持Revit2018、2019、2020、2021版本。以Revit2018为例:下载gitee项目(https://gitee.com/xujunpro2/revit-plugins)，解压后，将项目中的revit2018文件夹的Export.addin、Export.dll、Newtonsoft.Json.dll到目录C:\Users\你的用户名称\AppData\Roaming\Autodesk\Revit\Addins\2018下。启动Revit2018，在弹出插件加载对话框时，选择“总是载入”。
+						</p>
+						<span><a class="btn btn-primary btn-lg" href="https://gitee.com/xujunpro2/revit-plugins" target="_blank">下载Revit导出插件</a></span>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row row-bottom-padded-md">
+					<div class="col-md-12 animate-box">
+						<figure>
+							<img src="images/revit.png" alt="Revt插件" class="img-responsive">
+						</figure>
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2 animate-box">
+						<h3>轻量化导出设置</h3>
+						<p>请确保在Revit的三维视图下导出模型。导出时长和模型大小、模型复杂度以及电脑性能有关。Revit软件在执行耗时任务时容易假死，导出过程中遇到电脑无响应的情况不用管，整个导出过程结束后会有消息提示框弹出！</p>
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="col-md-4 text-center animate-box">
+						<p><img src="images/revit1.png" class="img-responsive"></p>
+						<p><img src="images/revit3.png" class="img-responsive"></p>
+					</div>
+					<div class="col-md-4 text-center animate-box">
+						<p><img src="images/revit2.png" class="img-responsive"></p>
+					</div>
+		
+					<div class="col-md-4">
+						<h4>导出参数说明</h4>
+						1.减模系数: LOD值，大模型建议降低LOD值。
+						<br/>
+						2.合并构件: 针对大模型和机电模型的优化手段。中小模型不建议勾选，反而会增加不必要的性能浪费。
+						<br/>
+						3.导出构件树: 导出空间结构数据。JSON格式。
+						<br/>
+						4.导出构件属性: 导出构件属性数据。GZ压缩的JSON格式(分包文件)。
+						<br/>
+						<span style="font-size: 12px;color: #f1683c;">
+							注意:为了保证Revit导出插件的独立性和简单性，我们没有和数据库关联，构件属性是通过文件系统来保存的。
+							但对于大型模型，构件数量特别多的情况下，我们建议您把构件属性保存到您自己的数据库中，
+							在您的应用系统中通过SQL进行构件属性的查询和处理。
+							该实现方式请联系技术支持
+						</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div id="fh5co-services-section">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2 text-center heading-section animate-box">
+						<h3>前端二次开发</h3>
+						<p style="font-size: 14px;">前端JS SDK开发包采用umd打包规范，无论是Vue/React，
+						还是JQuery项目，都可以方便引用。</p>
+						<span><a class="btn btn-primary btn-lg" href="download/doc/index.html" target="_blank">查看JS SDK</a></span>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2 text-center heading-section animate-box">
+						<h3>前端脚手架</h3>
+						<p style="font-size: 14px;">为了方便开发者快速上手，我们制作了Vue和JQuery两种脚手架，直接下载快速上手。</p>
+						<span><a class="btn btn-primary btn-lg" href="https://gitee.com/xujunpro2/bim-vue-demo" target="_blank">下载Vue脚手架</a></span>
+						<span><a class="btn btn-primary btn-lg" href="https://gitee.com/xujunpro2/bim-jquery-demo" target="_blank">下载JQuery脚手架</a></span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- END fh5co-services-section -->
+	
+		<footer>
+			<div id="footer">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 text-center">
+					
+							<p>
+								@Copyright 2019-2029 BIMI 
+								<br> 
+								开发交流QQ群:796421379
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	
+
+	</div>
+	<!-- END fh5co-page -->
+
+	</div>
+	<!-- END fh5co-wrapper -->
+
+	<!-- jQuery -->
+
+
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Stellar -->
+	<script src="js/jquery.stellar.min.js"></script>
+	<!-- Superfish -->
+	<script src="js/hoverIntent.js"></script>
+	<script src="js/superfish.js"></script>
+
+	<!-- Main JS (Do not remove) -->
+	<script src="js/main.js"></script>
+
+	</body>
+</html>
+

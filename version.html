@@ -1,0 +1,591 @@
+
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>BIMI-BIM轻量化引擎</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Free HTML5 Template by FREEHTML5" />
+	<meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
+	
+
+  
+
+  	<!-- Facebook and Twitter integration -->
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
+
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+	<link rel="shortcut icon" href="favicon.ico">
+
+	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,300' rel='stylesheet' type='text/css'>
+	
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<!-- Superfish -->
+	<link rel="stylesheet" href="css/superfish.css">
+
+	<link rel="stylesheet" href="css/style.css">
+
+
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
+	</head>
+	<body>
+		<div id="fh5co-wrapper">
+		<div id="fh5co-page">
+		<div id="fh5co-header">
+			<header id="fh5co-header-section">
+				<div class="container">
+					<div class="nav-header">
+						<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
+						<h1 id="fh5co-logo"><a href="index.html">BIMI</a></h1>
+						<!-- START #fh5co-menu-wrap -->
+						<nav id="fh5co-menu-wrap" role="navigation">
+							<ul class="sf-menu" id="fh5co-primary-menu">
+								<li><a href="index.html">首页</a></li>
+								<li><a href="develop.html">开发指南</a></li>
+								<li><a href="http://xujunpro2.gitee.io/bim-example-release" target="_blank">示例演示</a></li>
+								<li>
+									<a href="#" class="fh5co-sub-ddown">开发文档</a>
+									<ul class="fh5co-sub-menu">
+										<li><a href="download/doc/index.html" target="_blank">API文档</a></li>
+										<li><a href="question.html" target="_blank">常见问题</a></li>
+										<li><a href="guid.html" target="_blank">常用API</a></li>
+									</ul>
+								</li>
+								<li><a href="services.html">服务与支持</a></li>
+								<li><a href="download.html">下载</a></li>
+								<li class="active"><a href="version.html">版本更新</a></li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</header>
+		</div>
+		
+
+		<div class="fh5co-hero fh5co-hero-2">
+			<div class="fh5co-overlay"></div>
+			<div class="fh5co-cover fh5co-cover_2 text-center" data-stellar-background-ratio="0.5" style="background-image: url(images/work-6.jpg);">
+				<div class="desc animate-box">
+					<h2>最新版本</h2>
+					<span>v3.4</span>
+				</div>
+			</div>
+		</div>
+		<!-- end:header-top -->
+
+		<div id="fh5co-services-section" class="fh5co-section-gray">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2 text-center heading-section animate-box">
+						<h3>更新内容</h3>
+					</div>
+				</div>
+			</div>
+			
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="feature-left">
+							<span class="icon">
+								<i class="icon-search"></i>
+							</span>
+							<div class="feature-copy">
+								<h3>V3.4</h3>
+								<ul>
+									<li>JS SDK</li>
+									聚焦、飞行等视角变化API增加指定欧拉角参数<br/>
+									bug消缺<br/>
+									模型加载性能优化<br/>
+									<li>example</li>
+									示例更新<br/>
+									<li>revit</li>
+									新增对revit2021、2022的支持，构件层高解析更准确<br/>
+									<li>IFC</li>
+									解决IFC服务端导出的一个重要bug<br/>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="col-md-12">
+						<div class="feature-left">
+							<span class="icon">
+								<i class="icon-search"></i>
+							</span>
+							<div class="feature-copy">
+								<h3>V3.3.1</h3>
+								<ul>
+									<li>JS SDK</li>
+									优化阴影插件ShadowPlugin<br/>
+									扫光插件SweepLightPlugin支持模型渐变着色<br/>
+									所有标签插件重构，规范API命名，新增动态更新标签内容API<br/>
+									新增自定义PBR材质API:createPBRMaterial<br/>
+									初始化着色setReplaceStyle新增PBR参数<br/>
+									<li>example</li>
+									示例更新<br/>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="col-md-12">
+						<div class="feature-left">
+							<span class="icon">
+								<i class="icon-search"></i>
+							</span>
+							<div class="feature-copy">
+								<h3>V3.3</h3>
+								<ul>
+									<li>JS SDK</li>
+									统一模型的加载API:BimVewer.load<br/>
+									新增模型的位置变化API:BimVewer.setModelPosition<br/>
+									新增BIM合模API:BimViewer.loadMerge<br/>
+									OSGBPlugin新增setModelPosition,可在加载之后也能修改倾斜摄影的位置变化<br/>
+									新增BimViewer开启每帧自动刷新控制参数:alwaysRefresh<br/>
+									<li>example</li>
+									示例更新<br/>
+									<li>轻量化处理</li>
+									发布服务端解析社区版<br/>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="col-md-12">
+						<div class="feature-left">
+							<span class="icon">
+								<i class="icon-search"></i>
+							</span>
+							<div class="feature-copy">
+								<h3>V3.2</h3>
+								<ul>
+									<li>JS SDK</li>
+									新增采用IDW算法，并支持多段数据演进的热力网格插件HeatmapGridPlugin<br/>
+									新增传统热力图插件HeatmapPlugin<br/>
+									BimViewer新增setReplaceStyle，用于替换构件原始材质，在load之前调用该函数，可以实现在渐进性加载过程中使用指定的替换材质效果<br/>
+									新增CustomModel对象，用户自定义的Mesh只要add到CustomModel中，也可支持包围盒剖切<br/>
+									<li>example</li>
+									新增示例<br/>
+									<li>revit</li>
+									目前revit2018-2020插件社区版取消授权文件验证<br/>
+									<li>IFC</li>
+									社区版取消授权文件验证<br/>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-md-12">
+						<div class="feature-left">
+							<span class="icon">
+								<i class="icon-search"></i>
+							</span>
+							<div class="feature-copy">
+								<h3>V3.1</h3>
+								<ul>
+									<li>JS SDK</li>
+									新增OSGBPlugin,支持倾斜摄影<br/>
+									<li>example</li>
+									新增示例<br/>
+									<li>revit</li>
+									支持地图功能<br/>
+									<li>IFC</li>
+									支持地图功能<br/>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-md-12">
+						<div class="feature-left">
+							<span class="icon">
+								<i class="icon-search"></i>
+							</span>
+							<div class="feature-copy">
+								<h3>V3.0</h3>
+								<ul>
+									<li>JS SDK</li>
+									新增地图模块，V3.0着重面向BIM+GIS<br/>
+									<li>example</li>
+									新增示例<br/>
+									<li>revit</li>
+									支持地图功能<br/>
+									<li>IFC</li>
+									支持地图功能<br/>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="col-md-12">
+						<div class="feature-left">
+							<span class="icon">
+								<i class="icon-search"></i>
+							</span>
+							<div class="feature-copy">
+								<h3>V2.3.1</h3>
+								<ul>
+									<li>JS SDK</li>
+									重要更新：解决在极端频繁情况下设置构件材质可能导致的内存溢出问题<br/>
+									新增iconfont标签插件:HtmlIconLabelPlugin<br/>
+									新增电子围栏插件:FencePlugin<br/>
+									新增导航图插件:MapPlugin<br/>
+									新增坐标涟漪插件:CircleWavePlugin<br/>
+									新增飞行线插件:FlyLinePlugin<br/>
+									新增鼠标选点插件:MouseCapturePlugin<br/>
+									Pick增加构件过滤功能<br/>
+									<li>example</li>
+									新增示例<br/>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<div class="feature-left">
+							<span class="icon">
+								<i class="icon-search"></i>
+							</span>
+							<div class="feature-copy">
+								<h3>V2.3</h3>
+								<ul>
+									<li>JS SDK</li>
+									重要更新：因chrome109版本取消了event.path导致UI控件出现一些bug，目前已修复，请各位使用新版本的sdk<br/>
+									loadGLTF函数增加对glb的支持<br/>
+									修复FlashPlugin内存占用的bug<br/>
+									修复EdgePlugin的bug<br/>
+									VideoPlugin、HlsPlugin增加删除视频对象removeVedio函数<br/>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<div class="feature-left">
+							<span class="icon">
+								<i class="icon-search"></i>
+							</span>
+							<div class="feature-copy">
+								<h3>V2.2.1</h3>
+								<ul>
+									<li>JS SDK</li>
+									主要针对合并构件的一些API的bug修复<br/>
+									BimViewer的load新增可选参数updateRegion，可用于在load的时候不重置当前相机视角<br/>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<div class="feature-left">
+							<span class="icon">
+								<i class="icon-search"></i>
+							</span>
+							<div class="feature-copy">
+								<h3>V2.2</h3>
+								<ul>
+									<li>JS SDK</li>
+									bug修复<br/>
+									新增EdgePlugin，可实现对构件进行边框线描边<br/>
+									新增HlsPlugin，可实现接入m3u8视频流<br/>
+									<li>revit</li>
+									修复链接模型的空间解析，增加了空间与构件关系解析导出选项<br/>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<div class="feature-left">
+							<span class="icon">
+								<i class="icon-search"></i>
+							</span>
+							<div class="feature-copy">
+								<h3>V2.1</h3>
+								<ul>
+									<li>JS SDK</li>
+									bug修复<br/>
+									<li>revit</li>
+									优化了标高解析算法<br/>
+									层高结构树添加族信息，建立构件和族元素的双向关联<br/>
+									链接模型解析bug修复<br/>
+									<li>IFC</li>
+									bug修复<br/>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<div class="feature-left">
+							<span class="icon">
+								<i class="icon-search"></i>
+							</span>
+							<div class="feature-copy">
+								<h3>V2.0.6</h3>
+								<ul>
+									<li>JS SDK</li>
+									标注功能解决了窗体resize后的位置错误问题<br/>
+									方向指示器控件的屏幕位置可设置<br/>
+									对大模型的性能优化<br/>
+									<li>revit</li>
+									性能优化<br/>
+									<li>IFC</li>
+									性能优化<br/>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="col-md-12">
+						<div class="feature-left">
+							<span class="icon">
+								<i class="icon-search"></i>
+							</span>
+							<div class="feature-copy">
+								<h3>V2.0.5</h3>
+								<ul>
+									<li>JS SDK</li>
+									BimViewer配置属性localCache增加轻量化数据版本比对，发现新版本自动更新缓存<br/>
+									loadGLTF也内置支持localCache<br/>
+									增加对FBX模型的支持，通过BimViewere的loadFBX加载<br/>
+									新增第三人称视角漫游插件ManPlugin<br/>
+									FPSPlugin和ManPlugin可设置碰撞检测例外，以及漫游过程中关注的构件<br/>
+									<li>revit</li>
+									增加轻量化数据版本信息<br/>
+									<li>IFC</li>
+									增加轻量化数据版本信息<br/>
+									<li>example</li>
+									FPS漫游增加碰撞检测例外(对门类型构件例外)以及关注构件。<br/>
+									ManPlugin示例。<br/>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="col-md-12">
+						<div class="feature-left">
+							<span class="icon">
+								<i class="icon-search"></i>
+							</span>
+							<div class="feature-copy">
+								<h3>V2.0.4</h3>
+								<ul>
+									<li>JS SDK</li>
+									针对大型模型的性能优化<br/>
+									修复小体积的BIM模型，相机操作的bug<br/>
+									<li>revit</li>
+									针对大型模型的轻量化处理优化<br/>
+									取消文件分包以及系统族复用的可选项，改为强制启用项<br/>
+									<li>IFC</li>
+									IFC轻量化工具性能优化，目前已经和Revit轻量化效果一致<br/>
+									IFC面片裁剪功能的bug修复<br/>
+									<li>example</li>
+									无。
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="col-md-12">
+						<div class="feature-left">
+							<span class="icon">
+								<i class="icon-search"></i>
+							</span>
+							<div class="feature-copy">
+								<h3>V2.0.3</h3>
+								<ul>
+									<li>JS SDK</li>
+									构件属性数据优化，并兼容之前的revit插件导出版本<br/>
+									FirstPersonPlugin更名为FlyPlugin，因为该插件效果类似飞行漫游<br/>
+									新增FpsPlugin，类似CS射击游戏的第一人称视角漫游，支持运行期调整速度，支持重力感应和碰撞检测<br/>
+									<li>revit</li>
+									UI界面更新<br/>
+									支持金属漆材质效果<br/>
+									构件属性导出优化<br/>
+									<li>IFC</li>
+									新增IFC文件导出工具,目前IFC轻量化处理的性能优化还不如Revit模型，待改进<br/>
+									<li>example</li>
+									增加FpsPlugin示例，新增漫游大类，将飞行漫游、FPS漫游、路径漫游示例集中起来。
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="col-md-12">
+						<div class="feature-left">
+							<span class="icon">
+								<i class="icon-search"></i>
+							</span>
+							<div class="feature-copy">
+								<h3>V2.0.2</h3>
+								<ul>
+									<li>JS SDK</li>
+									HtmlDomPlugin移除click事件监听，因为我们认为开发者通过dom自己定义事件更为科学<br/>
+									新增广告牌插件BillboardPlugin<br/>
+									新增辉光特效插件UnrealBloomPlugin<br/>
+									BimViewer接口新增:<br/>
+									1.临时设置构件材质颜色和透明度(保留原始材质纹理和其他所有特性)接口:setProductsMaterialColor<br/>
+									BimViewer接口修改:<br/>
+									1.setSceneBackground参数兼容string格式的html颜色表达，例如'#333333'
+									<li>revit</li>
+									无<br/>
+									<li>example</li>
+									BillboardPlugin示例
+									UnrealBloomPlugin示例
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="col-md-12">
+						<div class="feature-left">
+							<span class="icon">
+								<i class="icon-search"></i>
+							</span>
+							<div class="feature-copy">
+								<h3>V2.0.1</h3>
+								<ul>
+									<li>JS SDK</li>
+									构件目录树控件优化:打开/关闭后状态保持；搜索、隔离性能优化；隔离和勾选增加联动；异步更新后自动刷新UI<br/>
+									场景设置控件新增保存当前设置功能，并可通过BimViewer新增接口setConfig()设置场景<br/>
+									BimViewer新增接口:clearLocalCache()、setConfig()<br/>
+									移除axios依赖，采用fetch<br/>
+									<li>revit</li>
+									分包算法优化，避免某些模型导出时出现内存溢出bug。<br/>
+									<li>example</li>
+									新特性示例
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="col-md-12">
+						<div class="feature-left">
+							<span class="icon">
+								<i class="icon-search"></i>
+							</span>
+							<div class="feature-copy">
+								<h3>V2.0.0</h3>
+								<ul>
+									<li>JS SDK</li>
+									BimViewer新增对GLTF模型的支持<br/>
+									BimViewer新增层高结构bimTree属性，通过bimTree的getTree、getProductIds可对层高结构数据进行查询<br/>
+									BimViewer的on注册事件名支持ViewerEvent枚举(之前string类型仍然可用)</br>
+									新增其他接口:hdr、isolateProducts、getModels、setAllProductsVisible。</br>
+									新增场景阴影插件ShadowPlugin。</br>
+									新增楼层爆炸分解插件ExplodePlugin。</br>
+									移动插件TranslatePlugin BUG修复。</br>
+									构件目录树控件增加搜索、透明、隔离等功能。</br>
+									<li>revit</li>
+									更多材质bump贴图支持。<br/>
+									层高Level解析更准确。<br/>
+									<li>example</li>
+									新特性示例
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			
+			</div>
+		</div>
+
+		
+		<footer>
+			<div id="footer">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 text-center">
+					
+							<p>
+								@Copyright 2019-2029 BIMI 
+								<br> 
+								开发交流QQ群:796421379
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	
+
+	</div>
+	<!-- END fh5co-page -->
+
+	</div>
+	<!-- END fh5co-wrapper -->
+
+	<!-- jQuery -->
+
+
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Stellar -->
+	<script src="js/jquery.stellar.min.js"></script>
+	<!-- Superfish -->
+	<script src="js/hoverIntent.js"></script>
+	<script src="js/superfish.js"></script>
+
+	<!-- Main JS (Do not remove) -->
+	<script src="js/main.js"></script>
+
+	</body>
+</html>
+
